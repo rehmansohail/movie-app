@@ -7,9 +7,13 @@
     "react-dom": "^18.2.0",
     "react-scripts": "0.9.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "homepage": "https://rehmansohail.github.io/movie-app",
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build --branch=gh-pages",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
