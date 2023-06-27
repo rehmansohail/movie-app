@@ -10,10 +10,11 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "homepage" : "https://rehmansohail.github.io/movie-app",
-
+  "homepage": "https://rehmansohail.github.io/movie-app",
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
